@@ -1,0 +1,175 @@
+{
+  "minecraft": {
+    "version": "1.16.5",
+    "modLoaders": [
+      {
+        "id": "forge-36.2.34",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "overrides": "overrides",
+  "manifestVersion": 1,
+  "version": "1.0.0",
+  "author": "damien",
+  "name": "uh dog",
+  "files": [
+    {
+      "projectID": 32274,
+      "fileID": 3827894,
+      "required": true,
+      "__meta": {
+        "name": "JourneyMap"
+      }
+    },
+    {
+      "projectID": 74072,
+      "fileID": 3695126,
+      "required": true,
+      "__meta": {
+        "name": "Tinkers Construct",
+        "dependencies": [
+          74924
+        ]
+      }
+    },
+    {
+      "projectID": 74924,
+      "fileID": 3631982,
+      "required": true,
+      "__meta": {
+        "name": "Mantle"
+      }
+    },
+    {
+      "projectID": 235279,
+      "fileID": 3376782,
+      "required": true,
+      "__meta": {
+        "name": "Chisel",
+        "dependencies": [
+          267602
+        ]
+      }
+    },
+    {
+      "projectID": 238222,
+      "fileID": 3681294,
+      "required": true,
+      "__meta": {
+        "name": "Just Enough Items (JEI)"
+      }
+    },
+    {
+      "projectID": 240630,
+      "fileID": 3545538,
+      "required": true,
+      "__meta": {
+        "name": "Just Enough Resources (JER)",
+        "dependencies": [
+          238222
+        ]
+      }
+    },
+    {
+      "projectID": 248787,
+      "fileID": 3686480,
+      "required": true,
+      "__meta": {
+        "name": "AppleSkin"
+      }
+    },
+    {
+      "projectID": 256717,
+      "fileID": 3658432,
+      "required": true,
+      "__meta": {
+        "name": "Clumps"
+      }
+    },
+    {
+      "projectID": 267602,
+      "fileID": 3137659,
+      "required": true,
+      "__meta": {
+        "name": "ConnectedTexturesMod"
+      }
+    },
+    {
+      "projectID": 324717,
+      "fileID": 3597364,
+      "required": true,
+      "__meta": {
+        "name": "Jade 🔍"
+      }
+    },
+    {
+      "projectID": 354143,
+      "fileID": 3835895,
+      "required": true,
+      "__meta": {
+        "name": "Performant"
+      }
+    },
+    {
+      "projectID": 420913,
+      "fileID": 3224252,
+      "required": true,
+      "__meta": {
+        "name": "Smooth Boot (Forge)"
+      }
+    },
+    {
+      "projectID": 429235,
+      "fileID": 3485636,
+      "required": true,
+      "__meta": {
+        "name": "FerriteCore (Forge)"
+      }
+    },
+    {
+      "projectID": 532724,
+      "fileID": 3526076,
+      "required": true,
+      "__meta": {
+        "name": "Magnesium"
+      }
+    },
+    {
+      "projectID": 533801,
+      "fileID": 3496027,
+      "required": true,
+      "__meta": {
+        "name": "Sulfuric"
+      }
+    },
+    {
+      "projectID": 549394,
+      "fileID": 3534475,
+      "required": true,
+      "__meta": {
+        "name": "Krypton Reforged"
+      }
+    },
+    {
+      "projectID": 551736,
+      "fileID": 3574974,
+      "required": true,
+      "__meta": {
+        "name": "Magnesium/Rubidium Dynamic Lights",
+        "dependencies": [
+          532724
+        ]
+      }
+    },
+    {
+      "projectID": 558905,
+      "fileID": 3592543,
+      "required": true,
+      "__meta": {
+        "name": "Magnesium/Rubidium Extras"
+      }
+    }
+  ]
+}
